@@ -1,32 +1,30 @@
 {
-  "manifest_version": 3,
-  "name": "Exam Calculator - IITM Assignments",
-  "version": "1.0",
+  "manifest_version": 2,
+  "name": "Exam Calc - IITM Assignments",
+  "version": "1.1",
   "description": "Use the calculator provided in exams during IITM assignments instantly",
-  "action": {
+  "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icons/icon16.png"
     }
   },
-  "host_permissions": ["https://*.iitm.ac.in/*"],
-    "icons": {
-      "48": "icons/icon48.png",
-      "96": "icons/icon96.png"
-    },
+  "browser_specific_settings": {
+      "gecko": {
+        "id": "{0a57bfe6-e0f2-41ff-9e67-791696d02785}"
+      }
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
   "permissions": ["activeTab"],
   "web_accessible_resources": [
-    {
-      "resources": [
-        "popup.html",
-        "css/calclayout.css",
-        "js/jquery-1.8.0.min.js",
-        "js/jquery-ui.min.js",
-        "js/oscZenoedited.js"
-      ],
-      "matches": ["<all_urls>"]
-    }
-  ]
+    "popup.html",
+    "css/calclayout.css",
+    "js/jquery-1.8.0.min.js",
+    "js/jquery-ui.min.js",
+    "js/oscZenoedited.js"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
 }
