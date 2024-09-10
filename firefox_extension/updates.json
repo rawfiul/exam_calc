@@ -5,6 +5,10 @@
                 {
                     "version": "1.2",
                     "update_link": "https://raw.githubusercontent.com/rawfiul/exam_calc/main/firefox_extension/exam_calc.xpi"
+                },
+                {
+                    "version": "2.0",
+                    "update_link": "https://raw.githubusercontent.com/rawfiul/exam_calc/main/firefox_extension/exam_calc.xpi"
                 }
             ]
         }
