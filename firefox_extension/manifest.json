@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Exam Calc - IITM Assignments",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Use the calculator provided in exams during IITM assignments instantly",
   "browser_action": {
     "default_popup": "popup.html",
@@ -10,16 +10,18 @@
     }
   },
   "browser_specific_settings": {
-      "gecko": {
-        "id": "{0a57bfe6-e0f2-41ff-9e67-791696d02785}",
-        "update_url": "https://raw.githubusercontent.com/rawfiul/exam_calc/main/firefox_extension/updates.json"
-      }
+    "gecko": {
+      "id": "{0a57bfe6-e0f2-41ff-9e67-791696d02785}",
+      "update_url": "https://raw.githubusercontent.com/rawfiul/exam_calc/main/firefox_extension/updates.json"
+    }
   },
   "icons": {
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
   },
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab"
+  ],
   "web_accessible_resources": [
     "popup.html",
     "css/calclayout.css",

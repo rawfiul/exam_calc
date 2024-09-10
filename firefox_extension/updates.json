@@ -3,7 +3,7 @@
         "{0a57bfe6-e0f2-41ff-9e67-791696d02785}": {
             "updates": [
                 {
-                    "version": "2.0",
+                    "version": "2.1",
                     "update_link": "https://raw.githubusercontent.com/rawfiul/exam_calc/main/firefox_extension/exam_calc.xpi"
                 }
             ]

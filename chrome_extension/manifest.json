@@ -1,7 +1,9 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
   "manifest_version": 3,
   "name": "Exam Calculator - IITM Assignments",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Use the calculator provided in exams during IITM assignments instantly",
   "action": {
     "default_popup": "popup.html",
@@ -11,12 +13,10 @@
       "128": "icons/icon128.png"
     }
   },
-  "host_permissions": ["https://*.iitm.ac.in/*"],
-    "icons": {
-      "48": "icons/icon48.png",
-      "96": "icons/icon96.png"
-    },
-  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
   "web_accessible_resources": [
     {
       "resources": [
