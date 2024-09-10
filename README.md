@@ -10,7 +10,7 @@ Watch it in Action:
 2. Pin this extension/add-on to your toolbar of browser for 1 click access, or set a keyboard shortcut on your browser.
 3. The calculator memory resets if extension popup goes out of focus. Didn't affect my workflow since we can still scroll the assignment page without losing calculator focus.
 
-### Chrome Extension
+### Chrome Extension: [Install here](https://chromewebstore.google.com/detail/exam-calculator-iitm-assi/cjccknhmopklejappbagigomolknaefi)
 1. Download the zip: [Link](https://raw.githubusercontent.com/rawfiul/exam_calc/main/chrome_extension/exam_calc_chrome.zip)
 2. Unzip the file and you will get a folder.
 3. Type ```chrome://extensions/``` as URL in Chrome browser.
